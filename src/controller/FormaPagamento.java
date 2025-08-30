@@ -1,13 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package controller;
 
-/**
- *
- * @author if739
- */
 public class FormaPagamento {
+    
+    private int formaPagamentoId;
+    private String descricao;
+
+    public FormaPagamento(int formaPagamentoId, String descricao) {
+        this.formaPagamentoId = formaPagamentoId;
+        this.descricao = descricao;
+    }
+
+    public int getFormaPagamentoId() {
+        return formaPagamentoId;
+    }
+
+    public void setFormaPagamentoId(int formaPagamentoId) {
+        this.formaPagamentoId = formaPagamentoId;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
     
 }
